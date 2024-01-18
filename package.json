@@ -1,0 +1,19 @@
+{
+  "name": "airsec-tod",
+  "version": "1.0.0",
+  "description": "Truth or Dare Bot",
+  "main": "AIRSEC-TOD.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sansyourways/AIRSEC-TOD.git"
+  },
+  "author": "sansyourways",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sansyourways/AIRSEC-TOD/issues"
+  },
+  "homepage": "https://github.com/sansyourways/AIRSEC-TOD#readme"
+}
