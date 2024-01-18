@@ -54,8 +54,8 @@ function deleteMessage(ctx) {
 
 // Inline keyboard markup to toggle settings
 const toggleSettingsMarkup = Markup.inlineKeyboard([
-    Markup.callbackButton(`Message Deletion: ${deleteMessages ? 'Enabled' : 'Disabled'}`, 'toggle_delete'),
-    Markup.callbackButton(`Bot Status: ${botEnabled ? 'Enabled' : 'Disabled'}`, 'toggle_bot'),
+    Markup.button.callback(`Message Deletion: ${deleteMessages ? 'Enabled' : 'Disabled'}`, 'toggle_delete'),
+    Markup.button.callback(`Bot Status: ${botEnabled ? 'Enabled' : 'Disabled'}`, 'toggle_bot'),
 ]).extra();
 
 bot.command('toggledelete', (ctx) => {
