@@ -72,8 +72,8 @@ bot.command('togglebot', (ctx) => {
 
 // Inline keyboard markup to toggle bot status
 const toggleBotMarkup = Markup.inlineKeyboard([
-    Markup.callbackButton('Enable Bot', 'enable_bot'),
-    Markup.callbackButton('Disable Bot', 'disable_bot'),
+    Markup.button.callback('Enable Bot', 'enable_bot'),
+    Markup.button.callback('Disable Bot', 'disable_bot'),
 ]).reply_markup;
 
 bot.command('togglebot', (ctx) => {
